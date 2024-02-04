@@ -1,0 +1,50 @@
+body {
+    font: 16px 'Courier New', monospace;
+    color: rgb(48, 48, 48);
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: rgb(133, 133, 133); */
+    background-color: rgb(250, 250, 250);
+}
+
+.header-container {
+    border-radius: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    /* background-color: #c0c0c0; */
+}
+
+.radio-buttons {
+    accent-color: rgb(130, 102, 143);
+    font-weight: 550;
+}
+
+td:hover{
+    color: rgb(0, 190, 57);
+    cursor: pointer;
+}
+label{
+    transition: 0.25s
+}
+label:hover{
+    font-weight: bold;
+    color: rgb(158, 110, 212);
+    cursor: pointer;
+}
+.input-container{
+    padding: 10px;
+    display:flex;
+    justify-content:space-evenly
+}
+#x-property-dropdown
+{
+    width: 15%;
+}
+
+#cat-property-dropdown
+{
+    width: 15%;
+}
